@@ -1,0 +1,149 @@
+{
+  search(term: "mal_1334fc6d") {
+    ...MFrag_SearchOutput_2
+  }
+  a_a7c54c: groups {
+    ...MFrag_Group_4
+  }
+  group(id: 163582) {
+    ...MFrag_Group_8
+  }
+  ab_5e2a10: group
+  ab_0e9a92: group
+  ab_897fbe: group
+  ab_d41574: group
+}
+
+fragment MFrag_Info_0 on Info {
+  a_207749: nested {
+    a_efc7ab: details
+    a_d5130d: summary
+  }
+  a_f23220: summary
+  details
+}
+
+fragment MFrag_Member_1 on Member {
+  a_3c4d18: stats {
+    score
+    lastActive
+  }
+  alias
+  id
+}
+
+fragment MFrag_SearchOutput_2 on SearchOutput {
+  groups {
+    info {
+      details
+      a_37182d: summary
+      nested {
+        ...MFrag_Info_0
+      }
+    }
+    title
+    members {
+      id
+      a_2c3805: stats {
+        score
+      }
+      alias
+      ab_958399: stats
+      ab_f2e9f5: stats
+      ab_075c57: stats
+      ab_41b604: stats
+    }
+  }
+  members {
+    ...MFrag_Member_1
+  }
+}
+
+fragment MFrag_Info_3 on Info {
+  summary
+  details
+}
+
+fragment MFrag_Group_4 on Group {
+  info {
+    a_231ff1: details
+    summary
+    nested {
+      ...MFrag_Info_3
+    }
+  }
+  id
+  title
+  members {
+    stats {
+      lastActive
+      score
+    }
+    alias
+    id
+  }
+}
+
+fragment MFrag_MemberStats_5 on MemberStats {
+  score
+  a_5f7365: lastActive
+}
+
+fragment MFrag_Info_6 on Info {
+  a_b487e1: details
+  nested {
+    details
+  }
+}
+
+fragment MFrag_Info_7 on Info {
+  a_eba262: summary
+  nested {
+    nested {
+      nested {
+        nested {
+          a_7f1449: summary
+          details
+          nested {
+            nested {
+              ...MFrag_Info_6
+            }
+          }
+          ab_88842c: details
+          ab_024319: details
+          ab_f00957: details
+          ab_1109cc: details
+        }
+      }
+    }
+    summary
+  }
+  a_c01056: details
+}
+
+fragment MFrag_Group_8 on Group {
+  members {
+    alias
+    stats {
+      ...MFrag_MemberStats_5
+    }
+    a_15c0ff: id
+    ab_85ab6b: id
+    ab_49fd44: id
+    ab_d368e4: id
+    ab_c034a4: id
+  }
+  info {
+    nested {
+      ...MFrag_Info_7
+    }
+    summary
+    details
+    ab_8c68fc: nested
+    ab_3287cb: nested
+    ab_44116c: nested
+    ab_cb0929: nested
+  }
+  title
+  a_be8262: id
+}

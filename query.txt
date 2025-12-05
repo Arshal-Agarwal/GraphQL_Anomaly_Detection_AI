@@ -1,0 +1,810 @@
+query RecursiveTestQuery {
+  recursive {
+    children {
+      ...MFrag_RecursiveNode_0
+    }
+    id
+    a_879e0f: next {
+      ...MFrag_RecursiveNode_49
+    }
+  }
+  a_d7773f: topNodes(limit: 969669)
+  profile(id: 279363) {
+    ...MFrag_Profile_50
+  }
+}
+
+fragment MFrag_RecursiveNode_0 on RecursiveNode {
+  a_1b6668: id
+  ab_ffdd69: id
+  ab_269f4c: id
+  ab_8484f6: id
+  ab_3e3fbc: id
+}
+
+fragment MFrag_RecursiveNode_1 on RecursiveNode {
+  id
+  children
+  next
+}
+
+fragment MFrag_RecursiveNode_2 on RecursiveNode {
+  next
+  children
+  id
+}
+
+fragment MFrag_RecursiveNode_3 on RecursiveNode {
+  next
+}
+
+fragment MFrag_RecursiveNode_4 on RecursiveNode {
+  next
+  ab_a1f200: next
+  ab_c66a39: next
+  ab_ffa4b2: next
+  ab_27e02e: next
+}
+
+fragment MFrag_RecursiveNode_5 on RecursiveNode {
+  a_b4ff05: children {
+    ...MFrag_RecursiveNode_4
+  }
+  a_c1ecde: next {
+    next
+  }
+  a_5b1aae: id
+}
+
+fragment MFrag_RecursiveNode_6 on RecursiveNode {
+  id
+  next {
+    children {
+      next
+      id
+    }
+    next {
+      ...MFrag_RecursiveNode_3
+    }
+    id
+    ab_40bbdf: id
+    ab_f6b518: id
+    ab_cad840: id
+    ab_5805ef: id
+  }
+  children {
+    ...MFrag_RecursiveNode_5
+  }
+}
+
+fragment MFrag_RecursiveNode_7 on RecursiveNode {
+  children {
+    next {
+      next {
+        a_e966f6: children
+      }
+      children {
+        id
+        next
+        children
+        ab_435b8d: children
+        ab_7b131d: children
+        ab_a480a4: children
+        ab_f41fc5: children
+      }
+      id
+    }
+    children {
+      next {
+        ...MFrag_RecursiveNode_1
+      }
+      a_3c5991: children {
+        ...MFrag_RecursiveNode_2
+      }
+      id
+    }
+  }
+  next {
+    ...MFrag_RecursiveNode_6
+  }
+  id
+}
+
+fragment MFrag_RecursiveNode_8 on RecursiveNode {
+  children {
+    ...MFrag_RecursiveNode_7
+  }
+}
+
+fragment MFrag_RecursiveNode_9 on RecursiveNode {
+  next
+}
+
+fragment MFrag_RecursiveNode_10 on RecursiveNode {
+  a_ba8458: id
+  next {
+    id
+    next
+  }
+  children {
+    ...MFrag_RecursiveNode_9
+  }
+  ab_70685c: id
+  ab_18617a: id
+  ab_2624d2: id
+  ab_aa3485: id
+}
+
+fragment MFrag_RecursiveNode_11 on RecursiveNode {
+  a_de76ac: next {
+    id
+    children {
+      children
+      id
+      next
+    }
+    next {
+      next
+    }
+  }
+  children {
+    id
+    children {
+      children
+      id
+      next
+      ab_99fd62: id
+      ab_92e58f: id
+      ab_6e236c: id
+      ab_0e4c95: id
+    }
+    next {
+      id
+      next
+      children
+      ab_c032c4: next
+      ab_f8d97e: next
+      ab_0b48e4: next
+      ab_0182e6: next
+    }
+  }
+  id
+}
+
+fragment MFrag_RecursiveNode_12 on RecursiveNode {
+  children
+  next
+  ab_59f9a5: next
+  ab_2bc2e6: next
+  ab_7a1829: next
+  ab_a0240f: next
+}
+
+fragment MFrag_RecursiveNode_13 on RecursiveNode {
+  id
+  children
+  next
+}
+
+fragment MFrag_RecursiveNode_14 on RecursiveNode {
+  next
+  id
+  children
+}
+
+fragment MFrag_RecursiveNode_15 on RecursiveNode {
+  a_3a4cea: id
+  next {
+    ...MFrag_RecursiveNode_14
+  }
+  a_b592e7: children {
+    id
+    children
+    a_de2dac: next
+  }
+}
+
+fragment MFrag_RecursiveNode_16 on RecursiveNode {
+  next {
+    next
+    children
+    id
+  }
+  children {
+    children
+    next
+    a_286bdb: id
+  }
+  a_f5522d: id
+}
+
+fragment MFrag_RecursiveNode_17 on RecursiveNode {
+  id
+  next {
+    id
+    children
+    next
+  }
+  children {
+    children
+    a_888eb8: next
+    id
+  }
+}
+
+fragment MFrag_RecursiveNode_18 on RecursiveNode {
+  a_1f95c4: next
+}
+
+fragment MFrag_RecursiveNode_19 on RecursiveNode {
+  id
+  children {
+    next
+    a_60ab87: id
+    children
+  }
+  next {
+    ...MFrag_RecursiveNode_18
+  }
+}
+
+fragment MFrag_RecursiveNode_20 on RecursiveNode {
+  children {
+    a_76d389: id
+    next
+    children
+    ab_226a6f: id
+    ab_bdf2dd: id
+    ab_cf0abe: id
+    ab_afa910: id
+  }
+  id
+}
+
+fragment MFrag_RecursiveNode_21 on RecursiveNode {
+  a_be62b5: children {
+    ...MFrag_RecursiveNode_20
+  }
+  next {
+    a_ca0317: id
+    children {
+      children
+      next
+      id
+    }
+    a_7dbc62: next {
+      next
+      id
+      a_b93854: children
+      ab_9b09b9: id
+      ab_de1173: id
+      ab_a4b833: id
+      ab_b5668a: id
+    }
+  }
+  id
+  ab_a8c2c2: id
+  ab_191da0: id
+  ab_deb4db: id
+  ab_4fa610: id
+}
+
+fragment MFrag_RecursiveNode_22 on RecursiveNode {
+  id
+  children {
+    next
+    children
+    a_dcd370: id
+  }
+  next {
+    a_f2562b: children
+    id
+  }
+}
+
+fragment MFrag_RecursiveNode_23 on RecursiveNode {
+  next {
+    a_6943a2: next
+    id
+    a_151edc: children
+    ab_bcf0da: next
+    ab_f07e18: next
+    ab_925da8: next
+    ab_0a17bb: next
+  }
+  id
+  children {
+    next
+    children
+    a_5076cc: id
+  }
+  ab_083caa: next
+  ab_aae087: next
+  ab_b5b50f: next
+  ab_ac844a: next
+}
+
+fragment MFrag_RecursiveNode_24 on RecursiveNode {
+  a_408a47: next {
+    ...MFrag_RecursiveNode_23
+  }
+  a_d94879: id
+}
+
+fragment MFrag_RecursiveNode_25 on RecursiveNode {
+  next {
+    next {
+      ...MFrag_RecursiveNode_22
+    }
+    id
+    children {
+      a_07c15e: next {
+        id
+        a_098e4d: next
+        children
+      }
+      children {
+        children
+        next
+        id
+      }
+      a_800cd7: id
+    }
+  }
+  id
+  a_64c623: children {
+    ...MFrag_RecursiveNode_24
+  }
+}
+
+fragment MFrag_RecursiveNode_26 on RecursiveNode {
+  next {
+    children {
+      a_0a7cb7: children
+      next
+      id
+    }
+  }
+  children {
+    a_48f839: id
+    children {
+      a_c586cb: next
+      ab_3efbae: next
+      ab_7f9134: next
+      ab_a95b82: next
+      ab_7ff2f4: next
+    }
+    next {
+      children
+    }
+    ab_505002: next
+    ab_6de3f8: next
+    ab_a3e327: next
+    ab_be5872: next
+  }
+  id
+}
+
+fragment MFrag_RecursiveNode_27 on RecursiveNode {
+  a_c3928c: children
+  a_6906d4: id
+  next
+}
+
+fragment MFrag_RecursiveNode_28 on RecursiveNode {
+  a_a3515c: id
+  next {
+    ...MFrag_RecursiveNode_27
+  }
+}
+
+fragment MFrag_RecursiveNode_29 on RecursiveNode {
+  next
+  a_71bc71: id
+  a_600795: children
+}
+
+fragment MFrag_RecursiveNode_30 on RecursiveNode {
+  next
+  id
+  children
+}
+
+fragment MFrag_RecursiveNode_31 on RecursiveNode {
+  a_fe038a: id
+  children {
+    ...MFrag_RecursiveNode_28
+  }
+  next {
+    children {
+      ...MFrag_RecursiveNode_29
+    }
+    a_a0225e: id
+    a_7268e8: next {
+      ...MFrag_RecursiveNode_30
+    }
+  }
+}
+
+fragment MFrag_RecursiveNode_32 on RecursiveNode {
+  id
+  next
+  a_b1670e: children
+}
+
+fragment MFrag_RecursiveNode_33 on RecursiveNode {
+  next
+  children
+  id
+}
+
+fragment MFrag_RecursiveNode_34 on RecursiveNode {
+  next
+  id
+  a_6047e4: children
+}
+
+fragment MFrag_RecursiveNode_35 on RecursiveNode {
+  id
+  children {
+    ...MFrag_RecursiveNode_33
+  }
+  next {
+    ...MFrag_RecursiveNode_34
+  }
+}
+
+fragment MFrag_RecursiveNode_36 on RecursiveNode {
+  a_8179e7: children {
+    a_18cf96: children {
+      ...MFrag_RecursiveNode_32
+    }
+    id
+    next {
+      a_f56361: next
+      children
+      id
+    }
+  }
+  id
+  next {
+    ...MFrag_RecursiveNode_35
+  }
+}
+
+fragment MFrag_RecursiveNode_37 on RecursiveNode {
+  children {
+    next {
+      ...MFrag_RecursiveNode_26
+    }
+    children {
+      ...MFrag_RecursiveNode_31
+    }
+    a_9b6154: id
+  }
+  next {
+    children {
+      ...MFrag_RecursiveNode_36
+    }
+    id
+  }
+  id
+}
+
+fragment MFrag_RecursiveNode_38 on RecursiveNode {
+  next
+  id
+  a_b89067: children
+}
+
+fragment MFrag_RecursiveNode_39 on RecursiveNode {
+  children {
+    ...MFrag_RecursiveNode_38
+  }
+  id
+  a_ef62da: next {
+    id
+    children
+    next
+  }
+  ab_807337: next
+  ab_fd747a: next
+  ab_e18f15: next
+  ab_b832e6: next
+}
+
+fragment MFrag_RecursiveNode_40 on RecursiveNode {
+  a_fe2024: id
+  children
+  a_4f262e: next
+}
+
+fragment MFrag_RecursiveNode_41 on RecursiveNode {
+  children
+  next
+  a_5308d8: id
+}
+
+fragment MFrag_RecursiveNode_42 on RecursiveNode {
+  next
+  id
+  children
+  ab_f64afb: id
+  ab_96ab65: id
+  ab_431ecf: id
+  ab_402854: id
+}
+
+fragment MFrag_RecursiveNode_43 on RecursiveNode {
+  next
+  id
+  a_4fe746: children
+  ab_bb8fb3: next
+  ab_6a8d00: next
+  ab_07890f: next
+  ab_a78d94: next
+}
+
+fragment MFrag_RecursiveNode_44 on RecursiveNode {
+  children {
+    a_d57793: id
+    a_4d9bf8: next {
+      ...MFrag_RecursiveNode_42
+    }
+  }
+  a_805420: next {
+    a_aebe7a: children {
+      ...MFrag_RecursiveNode_43
+    }
+    id
+    a_b3b406: next {
+      next
+      id
+      children
+    }
+  }
+  id
+}
+
+fragment MFrag_RecursiveNode_45 on RecursiveNode {
+  id
+  next {
+    next {
+      a_ffea56: children {
+        ...MFrag_RecursiveNode_40
+      }
+      id
+      next {
+        children
+        next
+      }
+    }
+    id
+    children {
+      children {
+        children
+      }
+      id
+      next {
+        ...MFrag_RecursiveNode_41
+      }
+    }
+  }
+  children {
+    ...MFrag_RecursiveNode_44
+  }
+}
+
+fragment MFrag_RecursiveNode_46 on RecursiveNode {
+  id
+  children {
+    next {
+      ...MFrag_RecursiveNode_37
+    }
+    id
+    children {
+      children {
+        id
+        children {
+          next {
+            ...MFrag_RecursiveNode_39
+          }
+          id
+          children {
+            id
+          }
+        }
+        next {
+          id
+          next {
+            children {
+              next
+            }
+            id
+            a_9eb5ac: next {
+              next
+              children
+              ab_76fd8b: next
+              ab_430020: next
+              ab_7097a3: next
+              ab_7a99d4: next
+            }
+          }
+        }
+      }
+      id
+      next {
+        ...MFrag_RecursiveNode_45
+      }
+    }
+  }
+}
+
+fragment MFrag_RecursiveNode_47 on RecursiveNode {
+  id
+  ab_60f000: id
+  ab_ab3362: id
+  ab_080ddd: id
+  ab_796630: id
+}
+
+fragment MFrag_RecursiveNode_48 on RecursiveNode {
+  next {
+    a_ebba80: next {
+      children {
+        id
+        next {
+          ...MFrag_RecursiveNode_8
+        }
+        children {
+          children {
+            children {
+              a_ee2e1d: id
+              a_24ae4a: children {
+                ...MFrag_RecursiveNode_10
+              }
+            }
+            next {
+              ...MFrag_RecursiveNode_11
+            }
+            id
+          }
+          a_a7b667: id
+          next {
+            a_11eca8: next {
+              next {
+                id
+                next {
+                  children
+                  next
+                  id
+                }
+                a_833c80: children {
+                  a_673ad7: id
+                  next
+                  a_12c166: children
+                }
+                ab_5db587: id
+                ab_8a5809: id
+                ab_a7ba55: id
+                ab_bd9890: id
+              }
+            }
+            children {
+              children {
+                id
+                a_dc7a3f: next {
+                  next
+                  id
+                  children
+                }
+                children {
+                  next
+                  id
+                  a_51c46a: children
+                }
+              }
+              a_aa2b81: next {
+                a_afe194: id
+                next {
+                  ...MFrag_RecursiveNode_12
+                }
+                children {
+                  a_ded5d5: id
+                  next
+                  children
+                  ab_3eb9ef: id
+                  ab_b07333: id
+                  ab_0f068a: id
+                  ab_f3969d: id
+                }
+              }
+              id
+            }
+            a_69b535: id
+          }
+        }
+      }
+      id
+      next {
+        children {
+          a_34449a: children {
+            id
+            a_3a8597: next {
+              children {
+                a_b8fc60: children {
+                  id
+                  next
+                }
+                id
+                next {
+                  ...MFrag_RecursiveNode_13
+                }
+              }
+              next {
+                ...MFrag_RecursiveNode_15
+              }
+              a_04b3fe: id
+            }
+            children {
+              next {
+                ...MFrag_RecursiveNode_16
+              }
+              id
+              a_178bb6: children {
+                ...MFrag_RecursiveNode_17
+              }
+            }
+          }
+        }
+        next {
+          next {
+            a_912b87: id
+            children {
+              a_d7f31e: next {
+                ...MFrag_RecursiveNode_19
+              }
+            }
+            a_18c1a1: next {
+              ...MFrag_RecursiveNode_21
+            }
+          }
+          a_b702ba: id
+          a_002b84: children {
+            ...MFrag_RecursiveNode_25
+          }
+        }
+        a_e118cc: id
+        ab_6f2805: id
+        ab_b0c267: id
+        ab_94fcaa: id
+        ab_3e7954: id
+      }
+      ab_f5505a: next
+      ab_7de442: next
+      ab_5889c8: next
+      ab_9ad64c: next
+    }
+  }
+  children {
+    next {
+      ...MFrag_RecursiveNode_46
+    }
+    id
+    children {
+      ...MFrag_RecursiveNode_47
+    }
+  }
+  a_25d381: id
+}
+
+fragment MFrag_RecursiveNode_49 on RecursiveNode {
+  children {
+    ...MFrag_RecursiveNode_48
+  }
+  id
+}
+
+fragment MFrag_Profile_50 on Profile {
+  id
+}

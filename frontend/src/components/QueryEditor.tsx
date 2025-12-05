@@ -8,7 +8,7 @@ interface QueryEditorProps {
 }
 
 const defaultQuery = `query GetUser {
-  user(id: "123") {
+  user(id: 123) {
     id
     name
     email
