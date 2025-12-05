@@ -1,0 +1,3 @@
+docker run -d --name dvga_graphql_container -p 4000:4000 dvga_graphql
+
+docker start cd18e3803d4669caa084fdbeb4ec11ab42673a0cc890c95989242b0627151808
